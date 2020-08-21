@@ -6,7 +6,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:5000')
+        fetch('http://localhost/api/')
             .then(res => res.json())
             .then(res => {
                 console.log('res:', res)
